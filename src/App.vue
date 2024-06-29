@@ -20,6 +20,10 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView />
 </template>
 
+<script>
+  console.log(import.meta.env);
+</script>
+
 <style scoped>
 header {
   line-height: 1.5;
