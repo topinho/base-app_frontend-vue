@@ -11,8 +11,8 @@ services:
       target: prod
       args:
         - VITE_BACKEND_URL=${VITE_BACKEND_URL}
-    #ports:
-    #  - '5127:80'
+    ports:
+      - '5127:80'
     networks: 
       - base-app
 
