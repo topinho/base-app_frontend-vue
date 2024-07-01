@@ -13,6 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/extra">Extra</RouterLink>
       </nav>
     </div>
   </header>
@@ -23,7 +24,6 @@ import HelloWorld from './components/HelloWorld.vue'
 <script>
   console.log(import.meta.env);
 </script>
-
 <style scoped>
 header {
   line-height: 1.5;
