@@ -1,8 +1,8 @@
 <template>
   <div class="extra">
     <h1>This is an extra page</h1>
-    <a href="http://64.227.98.133:8111">Localhost Vue App</a>
-    <a href="http://64.227.98.133:3111">Localhost Laravel App</a>
+    <a href="http://3.128.78.23:8111" target="_blank" rel="noopener">Localhost Vue App</a>
+    <a href="http://3.128.78.23:3111" target="_blank" rel="noopener">Localhost Laravel App</a>
   </div>
 </template>
 
